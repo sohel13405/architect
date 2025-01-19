@@ -1,0 +1,425 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.work-sans{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight:;
+  font-style: normal;
+}
+
+.bdy{
+  margin: 0px auto;
+}
+
+/* shared style  */
+.display-flex{
+    display: flex;
+    
+}
+.dark-1{
+  color: #131313;
+}
+
+.text-dark2{
+  color: #424242;
+}
+
+.text-dark3{
+  color: #727272;
+  
+  
+}
+
+
+/* header  start  */
+
+.bg-color-header{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* nav styles  */
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+
+}
+.brand{
+  font-size:3rem;
+  font-weight: bold;
+  
+ 
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 40px;
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+  
+}
+
+
+
+/* navbar start  */
+
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0px auto;
+}
+
+/* navbar end  */
+
+/* banner part start  */
+
+.banner-container{
+  text-align: center;
+}
+
+.h1-text{
+  font-size: 4rem;
+  font-weight: bold;
+}
+.btn-banner{
+  background-color: #FF900E;
+  padding: 1.4rem 2rem;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.4rem;
+  font-weight:200;
+  margin-top: 2rem;
+}
+
+.img-banner, .responsive {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* banner part end  */
+
+/* header end  */
+
+/* main start  */
+
+.teams{
+  max-width: 1318px;
+  height: auto;
+  margin: 0px auto;
+  margin-top: 80px;
+}
+.four-picture{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.teams-text{
+  align-items: center;
+  gap: 80px;
+}
+.teams-h1-text{
+  font-size: 3rem;
+}
+.spn-text{
+  font-weight: 400;
+  color: #727272;
+}
+.spn-color{
+  color: #FF900E;
+}
+/* Features you will love & enjoy */
+
+.container{
+  max-width: 1500px;
+  margin: 0px auto;
+  justify-content: space-between;
+  margin-top: 130px;
+  margin-bottom: 130px;
+ 
+}
+
+.container-h3-text{
+  font-size: 3rem;
+  font-weight: bold;
+  border-left: solid 5px #FF900E;
+  padding-left: 15px;
+  
+}
+.img-container{
+  width: 700px;
+  height: 980px;
+  padding-top: 30px;
+}
+.btn-img-container{
+  background-color: #FF900E;
+  padding: 55px 48px;
+  border-style: none;
+  border-radius: 10px;
+  margin-top: -100px;
+  margin-left: -130px;
+}
+
+.spn-text-1{
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+}
+
+.spn-text-2{
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: white;
+}
+.all-box-container{
+  
+  
+}
+.box-container{
+  background-color:white;
+  box-shadow: 15px 5px 10px 10px rgb(249, 248, 248);
+  padding: 30px;
+  margin-top: 20px;
+}
+/* some facts */
+.some-facts{
+ width: 1500px;
+ margin: 0px auto;
+}
+.some-facts-h2{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.main-card-box{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 1340px;
+  justify-content: space-around;
+  margin: 0px auto;
+  margin-top: 130px;
+  gap: 50px;
+ 
+}
+
+
+.box-1{
+  padding:50px;
+  
+  border: 2px solid coral;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+
+}
+
+.box-text{
+  font-size: 2.5rem;
+  font-weight:700px;
+  
+}
+.box-text-p{
+  font-size: 20px;
+  font-weight:700;
+  margin: 0px;
+}
+/* sponsors */
+.Sponspors{
+  width: 1440px;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 130px;
+  
+}
+.text-h4{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.text-h6{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.sponsors-icon{
+  width: 1440px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  filter: grayscale();
+}
+
+.foter{
+  width: 1440px;
+  height: 70px;
+ background-color: #FFF4E7;
+ margin: 0px auto;
+ margin-top: 130px;
+ margin-bottom: 130px;
+ text-align: center;
+ padding: 15px 0px 0px 0px;
+}
+.foter-h4{
+  
+}
+
+
+
+/* main end  */
+
+/* responsive area  */
+@media screen and (max-width:576px) {
+  .bdy{
+    margin: 0px 5px;
+  }
+
+  .brand{
+    font-size: 1rem; 
+    margin-left: 15px;
+  }
+  .h1-text{
+   font-size: 2rem;
+   font-weight:bold;
+  }
+  .nav-link{
+    display: none;
+  }
+  .btn-banner{
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+  font-weight:100;
+  }
+
+/* main  */
+.four-picture{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 25px;
+} 
+.teams-text{
+  display:flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+}
+.teams-h1-text{
+  font-size: 2rem;
+}
+.teams{
+  margin-top: 30px;
+}
+.teams-all-btn-text{
+  text-align: center;
+  
+}
+/* Features you will love & enjoy */
+.container, .responsive {
+  width: 100%;
+  height: inherit;
+  display:flex;
+  flex-direction: column;
+ 
+}
+.container-h3-text{
+  font-size: 2rem;
+  font-weight:bold;
+  border-left: solid 5px #FF900E;
+  padding-left: 15px;
+
+
+}
+.some-facts{
+  margin-top:100px ;
+}
+.some-facts-h2{
+  font-size: 2rem;
+ 
+  
+}
+.p-some-facts{
+  
+}
+
+.main-card-box{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 95%;
+  margin: 0px auto;
+  gap: 30px;
+  margin: 0px 10px;
+
+}
+
+
+.btn-img-container{
+  background-color: #FF900E;
+  padding: 28px 28px;
+  border-style: none;
+  border-radius: 10px;
+  width: 60%;
+  margin: 0px auto;
+  margin-top: -140px;
+  margin-left: 85px;
+}
+
+.spn-text-1{
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.spn-text-2{
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+}
+
+
+.some-facts{
+  width: 100%;
+}
+
+.Sponspors{
+  width: 100%;
+  
+}
+.text-h4{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px;
+
+}
+
+.text-h6{
+  
+  text-decoration: none;
+  margin:20px;
+  text-align: center;
+}
+
+.sponsors-icon{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0px auto;
+  justify-items: center;
+  gap: 40px;
+  margin-top: 100px;
+ 
+  
+}
+.foter{
+  width: 100%;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.foter-h4{
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 500;
+  
+}
+
+}
